@@ -1,0 +1,158 @@
+*{
+  box-sizing: border-box;
+}
+
+.main-container{
+  margin: 30px 40px 40px 70px;
+  /* width: 1000px;
+  height: 1000px; */
+}
+
+.headline{
+display: flex;
+/* max-width:80%; */
+align-items: center;
+justify-content:center;
+
+}
+.fa-newspaper{
+  font-size: 3rem;
+  padding: 0 10px;
+}
+.name{
+  font-size: 3rem;
+  padding: 0 10px;
+
+}
+
+.date{
+  font-style: italic;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.titlebars{
+  width: 95%;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 800px; */
+  list-style: none;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+ul a{
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  font-size: 10px;
+
+  text-align: justify;
+}
+
+.image-1{
+
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  /* width:300px;
+  height:200px; */
+}
+
+.image-2{
+  width:300px;
+  height: 150px
+}
+.image-3{
+  width:400px;
+  height: 300px
+}
+
+.column-1{
+  width:400px;
+}
+.column-2{
+  width:400px;
+  /* border-left: 1px solid; */
+  /* padding-left: 20px; */
+
+}
+.column-3{
+  width:400px;
+  /* border-left: 1px solid; */
+  /* padding-left: 10px; */
+}
+
+.container{
+  margin-top: 30px;
+
+   display: flex;
+  justify-content: space-between;
+}
+
+.vl {
+  border-left: 2px solid black;
+  height: 430px;
+  width: 10px
+}
+
+@media screen and (max-width: 800px){
+
+  .main-container{
+    margin: 20px 20px;
+
+  }
+  .name{
+    font-size: 2rem;
+    padding: 0 10px;
+  }
+  .fa-newspaper{
+    font-size: 2rem;
+    padding: 0 10px;
+  }
+  .date{
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .titlebars{
+    width: 100%;
+  }
+  ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* list-style: none; */
+  }
+  ul a{
+    padding: 15px 15px;
+
+  }
+  .tv{
+    margin-right: 40px;
+  }
+  .comedy{
+    margin-right: 20px;
+  }
+
+  .container{
+    margin: 30px 20px;
+
+     display: flex;
+    flex-direction: column;
+  }
+  .vl{
+    display: none;
+  }
+}
